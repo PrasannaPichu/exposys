@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mass Mail Dispatcher</title>
+</head>
+<body>
+    <form id="emailForm" enctype="multipart/form-data">
+        <input type="file" name="csvFile" accept=".csv" required>
+        <input type="text" name="subject" placeholder="Email Subject" required>
+        <textarea name="message" placeholder="Email Message" required></textarea>
+        <button type="submit">Send Emails</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
